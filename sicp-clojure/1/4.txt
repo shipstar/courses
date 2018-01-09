@@ -1,0 +1,1 @@
+Because new if is a function, it will evaluate its arguments before resolving the expression. Because one of its arguments is a recursive function call, the function will iterate indefinitely.

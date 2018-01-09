@@ -1,0 +1,4 @@
+Applicative-order evaluation results in an infinite loop because (p) must be resolved before it can be compared to 0.
+
+Normal-order evaluation passes (p) unevaluated to the if condition, at which point it is evaluated to 0.
+
